@@ -79,3 +79,16 @@ button:hover {
     color: hsl(228, 45%, 44%);
 }
 
+@media (max-width: 375px) {
+    section {
+        flex-direction: column;
+    }
+
+    .mobile-image {
+        display: inline;
+    }
+
+    .desktop-image {
+        display: none;
+    }
+}
