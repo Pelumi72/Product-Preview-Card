@@ -82,13 +82,18 @@ button:hover {
 @media (max-width: 375px) {
     section {
         flex-direction: column;
-    }
-
-    .mobile-image {
-        display: inline;
+        width: 19rem;
+        height: 35rem;
+        margin: 2rem 0;
     }
 
     .desktop-image {
         display: none;
+    }
+
+    .mobile-image {
+        display: inline;
+        width: 19rem;
+        border-radius: 10px 10px 0 0;
     }
 }
